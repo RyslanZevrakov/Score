@@ -25,10 +25,13 @@ public class Score{
         switch (choice){
             case '1':
                 System.out.println("\n");
+
                 System.out.println("Зарплата всех сотрудников за месец");
                 accountant.moneyForSalary();
+
                 System.out.println("Аренда памищения за год");
                 accountant.taxMoney();
+
                 System.out.println("Прибль в день");
                 accountant.income();
                 break;
@@ -40,12 +43,16 @@ public class Score{
             case '4':
                 System.out.println("\n");
                 System.out.println("отдыхает ли охраник");
+
                 securityGuard.restSecurityGuard();
                 System.out.println("отдыхает ли кассир");
+
                 cashier.restCashier();
                 System.out.println("отдыхает ли бугалтер");
+
                 accountant.restAccountant();
                 System.out.println("отдыхает ли ассистент");
+
                 assistant.restAssistant();
 
                 break;
@@ -53,10 +60,6 @@ public class Score{
                 System.out.println("\n");
                 assistant.assistant();
                 break;
-
-
-
-
         }
 
     }
