@@ -18,19 +18,24 @@ public class SecurityGuard {
 
     }
 
-    public static double firstNumber() {
+    public static double firstNumber()
+    {
         double Number = (int)(Math.random() * ( 3 - 1 )) + 1;
+
         return Number;
     }
-    public static double secondNumber() {
+    public static double secondNumber()
+    {
         double Number = (int)(Math.random() * ( 3 - 1 )) + 1;
+
         return Number;
     }
     double firstNumbers = firstNumber();
+
     double secondNumber = secondNumber();
 
-public void restSecurityGuard(){
+public void restSecurityGuard()
+{
     System.out.println(restSecurityGuard( firstNumbers ,secondNumber));
 }
-
 }

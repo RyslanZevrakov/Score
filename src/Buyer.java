@@ -23,17 +23,24 @@ double priceMeat = 22;
     }
     public static double priceFishNumber() {
         double  priceFishNumber = (int) (Math.random() * (200 - 0)) + 1;
+
         return  priceFishNumber;
     }
-    public void incomes() {
+    public void incomes()
+    {
         people = getRandomNumber();
+
         double priceVegetablesNumber = priceVegetablesNumber();
+
         double priceFruitNumber = priceFruitNumber();
+
         double priceMeatNumber = priceMeatNumber();
+
         double priceFishNumber = priceFishNumber();
+
        double income = people * ((priceVegetablesNumber * priceVegetables) + (priceFruit * priceFruitNumber) +
                (priceMeatNumber * priceMeat) + (priceFishNumber * priceFish));
+
         System.out.println(income);
     }
-
 }
