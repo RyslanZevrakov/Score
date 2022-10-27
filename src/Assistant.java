@@ -8,7 +8,8 @@ public class Assistant extends Provider {
 
             System.out.println(fruit + " фруктов на второй полку");
 
-        System.out.println(meat + " Мясо в правом холодильнике " + fish + " Рыба в левом холодильнике");
+        System.out.println(meat + " Мясо в правом холодильнике " + fish +
+                " Рыба в левом холодильнике");
     }
 
     public void moneyAssistant()
