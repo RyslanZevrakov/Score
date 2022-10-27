@@ -1,11 +1,12 @@
 public class SecurityGuard {
+
     public double moneySecurityGuard = 30000;
+
     public void moneySecurityGuard()
 
     {
         System.out.println(moneySecurityGuard + "salary");
     }
-
 
     public boolean restSecurityGuard(double secondNumber , double firstNumber) {
             if (firstNumber>secondNumber)
@@ -15,9 +16,7 @@ public class SecurityGuard {
                 return false;
             else
                 return true;
-
     }
-
     public static double firstNumber()
     {
         double Number = (int)(Math.random() * ( 3 - 1 )) + 1;

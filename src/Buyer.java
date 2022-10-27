@@ -1,9 +1,15 @@
 public class Buyer {
+
 double people;
+
 double  priceFruit = 8;
+
 double priceVegetables = 10;
+
 double priceFish = 20;
+
 double priceMeat = 22;
+
     public static double getRandomNumber(){
 
         double getRandomNumber = (int)(Math.random() * ( 1000 - 100 )) + 1;

@@ -4,9 +4,13 @@ public class Score{
             throws java.io.IOException {
         char choice;
         Assistant assistant = new Assistant();
+
         Chief chief = new Chief();
+
         Accountant accountant = new Accountant();
+
         SecurityGuard securityGuard= new SecurityGuard();
+
         Cashier cashier = new Cashier();
 
         do {
